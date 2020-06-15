@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest Linear</string>
 	<key>Identifier</key>
-	<string>io.github.securitygeneration.download.Linear</string>
+	<string>com.github.securitygeneration.download.Linear</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
