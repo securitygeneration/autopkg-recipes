@@ -18,6 +18,8 @@
             <array>
                 <string>testing</string>
             </array>
+	    <key>category</key>
+	    <string>Developer Tools</string>
             <key>description</key>
             <string>Linear desktop client</string>
             <key>display_name</key>
