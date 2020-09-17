@@ -27,7 +27,7 @@
             <key>developer</key>
             <string>Yubico</string>
             <key>display_name</key>
-            <string>Yubico Manager</string>
+            <string>YubiKey Manager</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
