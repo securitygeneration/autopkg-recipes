@@ -3,27 +3,31 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of YubiKey Manager and imports into Munki.</string>
+    <string>Downloads YubiKey Manager and imports into Munki.</string>
     <key>Identifier</key>
     <string>com.github.securitygeneration.munki.yubikeymanager</string>
     <key>Input</key>
     <dict>
-        <key>NAME</key>
-        <string>YubiKey Manager</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Utilities</string>
+        <key>NAME</key>
+        <string>YubiKeyManager</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
             <array>
                 <string>testing</string>
             </array>
-	    <key>category</key>
-	    <string>Utilities</string>
+            <key>category</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>description</key>
-            <string>YubiKey Manager</string>
+            <string>Use the YubiKey Manager to configure FIDO2, OTP and PIV functionality on your YubiKey on Windows, macOS, and Linux operating systems.</string>
+            <key>developer</key>
+            <string>Yubico</string>
             <key>display_name</key>
-            <string>YubiKey Manager</string>
+            <string>Yubico Manager</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
@@ -31,29 +35,16 @@
         </dict>
     </dict>
     <key>MinimumVersion</key>
-    <string>0.3.0</string>
+    <string>0.2.0</string>
     <key>ParentRecipe</key>
     <string>com.github.securitygeneration.download.yubikeymanager</string>
     <key>Process</key>
     <array>
         <dict>
-            <key>Processor</key>
-            <string>DmgCreator</string>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_megabytes</key>
-                <string>300</string>
-                <key>dmg_root</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
-                <key>dmg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-            </dict>
-        </dict>
-        <dict>
             <key>Arguments</key>
             <dict>
                 <key>pkg_path</key>
-                <string>%dmg_path%</string>
+                <string>%pathname%</string>
                 <key>repo_subdirectory</key>
                 <string>%MUNKI_REPO_SUBDIR%</string>
             </dict>
