@@ -13,7 +13,7 @@
 		<key>RELEASE</key>
 		<string>fresh</string>
 		<key>DOWNLOAD_URL</key>
-		<string>https://linear.app/download</string>
+		<string>https://desktop.linear.app/mac/dmg/x64</string>
 		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
 		<false/>
 	</dict>
