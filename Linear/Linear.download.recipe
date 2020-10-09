@@ -23,7 +23,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>re_pattern</key>
-				<string>(?P&lt;DOWNLOAD_URL&gt;download.linear.app/darwin/Linear-darwin-x64-(?P&lt;version&gt;[\d\.]+).zip)</string>
+				<string>(?P&lt;DOWNLOAD_URL&gt;desktop.linear.app/mac/dmg/x64)</string>
 				<key>url</key>
 				<string>https://linear.app/download</string>
 				<key>request_headers</key>
