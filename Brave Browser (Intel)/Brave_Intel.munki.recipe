@@ -15,7 +15,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Brave</string>
+		<string>Brave (Intel)</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
