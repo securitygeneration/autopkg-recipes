@@ -28,6 +28,10 @@
 			<string>Brave Software, Inc.</string>
 			<key>display_name</key>
 			<string>Brave</string>
+			<key>supported_architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
