@@ -24,6 +24,8 @@
 			</array>
 			<key>description</key>
 			<string>Brave Web Browser is a fast, free, secure web browser with a built-in ad blocker*, tracking and security protection, and optimized data and battery experience.</string>
+			<key>category</key>
+			<string>Browsers</string>
 			<key>developer</key>
 			<string>Brave Software, Inc.</string>
 			<key>display_name</key>
