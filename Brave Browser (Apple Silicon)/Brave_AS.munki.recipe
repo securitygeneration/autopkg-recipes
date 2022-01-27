@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Brave and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.securitgeneration.munki.Brave</string>
+	<string>com.github.securitgeneration.munki.Brave_arm</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
