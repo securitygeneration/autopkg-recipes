@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.securitgeneration.download.Brave</string>
+	<string>com.github.securitgeneration.download.Brave_arm</string>
 	<key>Process</key>
 	<array>
 		<dict>
