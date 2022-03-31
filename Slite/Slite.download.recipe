@@ -8,7 +8,7 @@
 	<string>Downloads the latest version of Slite.
 
 Acceptable values for PLATFORM_ARCH include:
-- 'amd64': Downloads the Intel version of Slite.
+- 'x64': Downloads the Intel version of Slite.
 - 'arm64': Downloads the Apple Silicon version of Slite. (this is the default)</string>
 	<key>Identifier</key>
 	<string>com.github.securitgeneration.download.Slite</string>
