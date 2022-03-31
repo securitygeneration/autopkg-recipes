@@ -10,6 +10,8 @@
 	<string>com.github.securitgeneration.munki.Slite</string>
 	<key>Input</key>
 	<dict>
+		<key>PLATFORM_ARCH</key>
+		<string>arm64</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
@@ -24,6 +26,10 @@
 			<string>Slite gives your team one place to share ideas, collect knowledge and stay in tune across time and space. Trusted by thousands of flexible and remote teams.</string>
 			<key>developer</key>
 			<string>Slite Inc.</string>
+			<key>supported_architectures</key>
+			<array>
+			   <string>arm64</string>
+			</array>
 			<key>display_name</key>
 			<string>Slite</string>
 			<key>name</key>

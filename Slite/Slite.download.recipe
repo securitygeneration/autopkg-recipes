@@ -5,25 +5,31 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Slite.</string>
+	<string>Downloads the latest version of Slite.
+
+Acceptable values for PLATFORM_ARCH include:
+- 'amd64': Downloads the Intel version of Slite.
+- 'arm64': Downloads the Apple Silicon version of Slite. (this is the default)</string>
 	<key>Identifier</key>
 	<string>com.github.securitgeneration.download.Slite</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>Slite</string>
+		<key>PLATFORM_ARCH</key>
+		<string>arm64</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>1.4.1</string>
 	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%NAME%.dmg</string>
+				<string>%NAME%-$PLATFORM_ARCH%.dmg</string>
 				<key>url</key>
-				<string>https://download.slite.com/mac</string>
+				<string>https://download.slite.com/mac/dmg/%PLATFORM_ARCH%</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
