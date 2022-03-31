@@ -27,7 +27,7 @@ Acceptable values for PLATFORM_ARCH include:
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%NAME%-$PLATFORM_ARCH%.dmg</string>
+				<string>%NAME%-%PLATFORM_ARCH%.dmg</string>
 				<key>url</key>
 				<string>https://download.slite.com/mac/dmg/%PLATFORM_ARCH%</string>
 			</dict>
