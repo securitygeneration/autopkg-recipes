@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://update.coscreen.org/CoScreen-3.11.62-stable.dmg</string>
+				<string>https://update.coscreen.org/CoScreen-current-stable.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
