@@ -21,9 +21,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%NAME%.tgz</string>
+				<string>%NAME%.zip</string>
 				<key>url</key>
-				<string>https://doctave-releases.s3.eu-central-1.amazonaws.com/0.12.0/Doctave.app.tar.gz</string>
+				<string>https://dashboard.doctave.com/releases/macos/latest</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
