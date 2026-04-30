@@ -17,7 +17,7 @@
 		<key>NAME</key>
 		<string>Brave</string>
 		<key>BUILD</key>
-		<string>stable</string>
+		<string>stable-arm64</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
