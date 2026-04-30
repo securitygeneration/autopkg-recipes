@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Brave and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.securitgeneration.pkg.Brave</string>
+	<string>com.github.securitygeneration.pkg.Brave</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.securitgeneration.download.Brave_arm</string>
+	<string>com.github.securitygeneration.download.Brave_arm</string>
 	<key>Process</key>
 	<array>
 		<dict>
