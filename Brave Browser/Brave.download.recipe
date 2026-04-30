@@ -9,7 +9,7 @@
 	- "stable": for Intel
 	- "stable-arm64": for Apple Silicon</string>
 	<key>Identifier</key>
-	<string>com.github.securitgeneration.download.Brave</string>
+	<string>com.github.securitygeneration.download.Brave</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
