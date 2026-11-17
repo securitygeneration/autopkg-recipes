@@ -3,23 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest Linear
-
-	Valid BUILD arguments are:
-	- "x64": For Intel Macs
-	- "arm64": For Apple Silicon Macs</string>
+	<string>Downloads the latest Linear</string>
 	<key>Identifier</key>
 	<string>com.github.securitygeneration.download.Linear</string>
 	<key>Input</key>
 	<dict>
-		<key>BUILD</key>
-		<string>x64</string>
 		<key>NAME</key>
 		<string>Linear</string>
 		<key>RELEASE</key>
 		<string>fresh</string>
 		<key>DOWNLOAD_URL</key>
-		<string>https://desktop.linear.app/mac/dmg/%BUILD%</string>
+		<string>https://releases.linear.app/mac</string>
 		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
 		<false/>
 	</dict>
