@@ -19,7 +19,7 @@
     <array>
         <dict>
             <key>Comment</key>
-            <string>Extract downloadUrl from the &lt;script id="download-config"&gt; JSON block.</string>
+            <string>Extract downloadUrl from the &lt;script id="download-config"&gt; JSON block. Only these download hosts are accepted: getmd.ma, and sandbox-cdn.skytechsport.cloud (a DigitalOcean Spaces bucket on SkyTechSport, a Crocopliers property; serving the DMG as of Nov 2026). If the page points anywhere else the recipe fails instead of following it. Review the new host before adding it here.</string>
             <key>Processor</key>
             <string>URLTextSearcher</string>
             <key>Arguments</key>
@@ -27,7 +27,7 @@
                 <key>url</key>
                 <string>%SEARCH_URL%</string>
                 <key>re_pattern</key>
-                <string>"downloadUrl"\s*:\s*"(?P&lt;url&gt;https://[^"]+\.dmg)"</string>
+                <string>"downloadUrl"\s*:\s*"(?P&lt;url&gt;https://(?:getmd\.ma|sandbox-cdn\.skytechsport\.cloud)/[^"]+\.dmg)"</string>
                 <key>result_output_var_name</key>
                 <string>url</string>
             </dict>
